@@ -6,19 +6,18 @@
 from pick_answer import AnswerPicker
 
 print("""
--------------------------------------
+--------------------------------------------------------
 ASK YOUR QUESTION! 
--------------------------------------""")
+--------------------------------------------------------""")
 
 answer_picker = AnswerPicker()
 
 while True:
     print("""
-    Choose one of the following:
-    1 - THINK OF THE QUESTION, PRESS "1" AND GET YOUR ANSWER
-    2 - NO MORE QUESTIONS? END THE PROGRAM BY PRESSING "2"  
-    3 - FIND OUT WHAT ARE THE POSSIBLE ANSWERS
-    --------------------------------------
+1 - THINK OF THE QUESTION, PRESS "1" AND GET YOUR ANSWER
+2 - NO MORE QUESTIONS? END THE PROGRAM BY PRESSING "2"  
+3 - FIND OUT WHAT ARE THE POSSIBLE ANSWERS? PRESS "3"
+--------------------------------------------------------
     """)
 
     choice_number = input("> ")
