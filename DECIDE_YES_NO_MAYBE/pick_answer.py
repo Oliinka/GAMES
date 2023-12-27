@@ -1,6 +1,5 @@
 import random
 
-
 class AnswerPicker:
     answer = ("YES", "NO", "MAY BE", "YOU WILL FIND OUT LATER")
 
